@@ -83,3 +83,9 @@ shape(1, 1)
   .scrollX([0.1, 0, -0.1, 0], 0)
   .scrollY([0.1, 0, -0.1, 0])
   .out(o0)
+
+// CAR
+
+s0.initVideo("https://raw.githubusercontent.com/tenmajkl/church_closing/refs/heads/main/static/car.mp4?token=GHSAT0AAAAAAC36BTFX632VJODHK7IMWNJSZ5Q7NBA")
+
+src(s0).out(o0)
