@@ -1,6 +1,6 @@
 // todo actualy order it
 // 2
-s0.initImage("https://media.discordapp.net/attachments/1338791614738464828/1338791670321385512/glazmo.png?ex=67ac5e67&is=67ab0ce7&hm=9c4fd7337d7a0962add86afdad79eec52d6af3a5c35b5836fec47bfb6cc641eb&=&format=webp&quality=lossless&width=767&height=432")
+s0.initImage("https://raw.githubusercontent.com/tenmajkl/church_closing/refs/heads/main/static/glazmo.webp?token=GHSAT0AAAAAAC36BTFXKND5KPRDNGPOSBDEZ5Q6YOQ")
 
 bpm = 1000
 
