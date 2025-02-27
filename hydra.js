@@ -84,6 +84,16 @@ shape(1, 1)
   .scrollY([0.1, 0, -0.1, 0])
   .out(o0)
 
+           
+  
+osc(50)
+  .thresh(0)
+  .rotate(() => time % 360)
+  .pixelate(6, 4)
+  .mask(voronoi().pixelate(50, 50).thresh(0.4)) // menit masky a threshold
+  .out(o0)
+
+
 // CAR
 
 s0.initVideo("https://raw.githubusercontent.com/tenmajkl/church_closing/refs/heads/main/static/car.mp4?token=GHSAT0AAAAAAC36BTFX632VJODHK7IMWNJSZ5Q7NBA")
